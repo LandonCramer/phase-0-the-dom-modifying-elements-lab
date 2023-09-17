@@ -1,12 +1,12 @@
- const element = document.querySelector('main#main');
- element.remove();
 
- const newHeader = document.createElement('h1');
- 
 
-  newHeader.id = 'victory';
 
-  const yourName = 'YOUR-NAME';
-  newHeader.textContent =  yourName +" is the champion";
+const element = document.querySelector('main#main');
+element.remove();
 
-  document.body.appendChild(newHeader);
+let newHeader = document.createElement('h1');
+
+newHeader.id = 'victory';
+newHeader.textContent = "Landon is the champion";
+
+document.body.appendChild(newHeader);
